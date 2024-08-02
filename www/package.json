@@ -1,0 +1,20 @@
+{
+  "name": "game-of-life",
+  "main": "index.js",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "game-of-life": "file:../pkg"
+  },
+  "devDependencies": {
+    "vite": "^5.3.5",
+    "vite-plugin-top-level-await": "^1.4.2",
+    "vite-plugin-wasm": "^3.3.0"
+  }
+}
